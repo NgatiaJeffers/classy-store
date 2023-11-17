@@ -7,7 +7,7 @@ const getBillboard = async (id: string): Promise<Billboard> => {
                             .then(response => {
                                 return response.json()
                             })
-
+    console.log(res)
     return res || null;
 };
 

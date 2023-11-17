@@ -7,6 +7,8 @@ const getCategories = async (): Promise<Category[]> => {
                             .then((response) => {
                                 return response.json()
                             });
+
+    console.log(res)
     return res || null;
 }
 
