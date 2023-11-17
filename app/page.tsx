@@ -11,7 +11,7 @@ const HomePage = async () => {
     <div>
       <Container>
         <div className="space-y-10 pb-10">
-          <Billboard data={billboard} />
+          {/* <Billboard data={billboard} /> */}
         </div>
       </Container>
     </div>
