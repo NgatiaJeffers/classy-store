@@ -4,18 +4,18 @@ import Container from "@/components/ui/container";
 
 
 
-const HomPage = async () => {
-  const billboard = await getBillboard("6554cde8dab85d0b80592b2d");
+const HomePage = async () => {
+  // const billboard = await getBillboard("6554cde8dab85d0b80592b2d");
 
   return (
     <div>
       <Container>
         <div className="space-y-10 pb-10">
-          <Billboard data={billboard} />
+          {/* <Billboard data={billboard} /> */}
         </div>
       </Container>
     </div>
   )
 }
 
-export default HomPage;
+export default HomePage;
