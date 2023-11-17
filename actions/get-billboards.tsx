@@ -1,5 +1,3 @@
-"use server";
-
 import { Billboard } from "@/types";
 
 const url = `${process.env.NEXT_PUBLIC_API_URL}/billboards`;
