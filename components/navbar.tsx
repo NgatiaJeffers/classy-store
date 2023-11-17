@@ -6,8 +6,8 @@ import getCategories from "@/actions/get-categories";
 import NavbarActions from "@/components/navbar-actions";
 
 const Navbar = async () => {
-    // const categories = await getCategories();
-    // console.log(categories)
+    const categories = await getCategories();
+    console.log(categories)
     return (
         <div className="border-b">
             <Container>
